@@ -46,7 +46,7 @@ python -m DriftSearch /path/to/DynSpec /path/to/candidates \
 ```
 
 ## Resulting Burst Candidate:
-![Burst Candidate](https://github.com/DavidKonijn/DriftSearch/blob/main/Dynspec_Source_Drift_8_width_1_downsampled_1_peak-index_522.pdf)
+![Burst Candidate](Dynspec_Source_Drift_8_width_1_downsampled_1_peak-index_522-1.png)
 
 ## Configurable parameters (`DriftSearchConfig`)
 
