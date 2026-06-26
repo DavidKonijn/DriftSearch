@@ -52,8 +52,8 @@ python -m DriftSearch /path/to/DynSpec /path/to/candidates \
 
 | Field | Default | Meaning |
 |---|---|---|
-| `input_dir` | — (required) | Where dynspecs live |
-| `output_dir` | — (required) | Where PDF cands go |
+| `input_dir` | (required) | Where dynspecs live |
+| `output_dir` | (required) | Where PDF cands go |
 | `off_dir` | `input_dir` | Off-target spectra for the variance spectrum |
 | `file_glob` | `"*.fits"` | Which files to load |
 | `search_snr` | `9.0` | Detection threshold (watershed peak threshold) |
