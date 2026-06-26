@@ -1,12 +1,12 @@
 import gc
 import glob
 import os
-from dataclasses import dataclass, field
-
 import numpy as np
+
+from tqdm import tqdm
 from astropy.io import fits
 from scipy.signal import convolve
-from tqdm import tqdm
+from dataclasses import dataclass, field
 
 from .burst_funcs import dedup_smallest_width_wins_by_label_overlap,matched_filter_snr,remove_brightest_channels_reject,robust_zscore_1d,watershed_merge_labels
 from .config import DriftSearchConfig
