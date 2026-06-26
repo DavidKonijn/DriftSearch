@@ -120,7 +120,9 @@ class DriftSearch:
 
     def find_candidates(self, ds, f_min, f_max, chans):
         """
-        Find burst cands in single dynspecs.
+        Find burst cands in a single dynspec
+
+        Returns: list of candidates
         """
 
         cfg = self.cfg
