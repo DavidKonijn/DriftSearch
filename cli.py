@@ -1,15 +1,14 @@
+import argparse
+
+from .config import DriftSearchConfig
+from .search import DriftSearch
+
 """
 Command-line interface for DriftSearch.
 
 Usage:
     python -m DriftSearch INPUT_DIR OUTPUT_DIR [options]
 """
-
-import argparse
-
-from .config import DriftSearchConfig
-from .search import DriftSearch
-
 
 def build_parser():
     p = argparse.ArgumentParser(
