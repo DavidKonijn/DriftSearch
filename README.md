@@ -20,9 +20,9 @@ drift to strongly drifting).
 ## Install
 
 ```
-cd /path/containing/DriftSearch
-pip install numpy scipy scikit-image scikit-learn numba astropy matplotlib tqdm
-# then just import it, or add the parent dir to PYTHONPATH
+git clone https://github.com/DavidKonijn/DriftSearch.git
+cd DriftSearch
+pip install -e .
 ```
 
 ## Quick start
