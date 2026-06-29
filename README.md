@@ -45,7 +45,7 @@ python -m DriftSearch /path/to/DynSpec /path/to/candidates \
     --search-snr 7 --search-stokes V --drift-max 200 --drift-steps 201 --no-plots
 ```
 
-## Resulting Burst Candidate:
+## Example Burst Candidate:
 ![Burst Candidate](Dynspec_Source_Drift_8_width_1_downsampled_1_peak-index_522-1.png)
 
 ## Configurable parameters (`DriftSearchConfig`)
