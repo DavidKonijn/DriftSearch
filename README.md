@@ -22,9 +22,8 @@ drift to strongly drifting).
 ```
 git clone https://github.com/DavidKonijn/DriftSearch.git
 cd DriftSearch
-pip install -e .
+python3 -m pip install -e .
 ```
-
 ## Quick start
 
 ```python
