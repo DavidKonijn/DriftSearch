@@ -13,7 +13,7 @@ Search a target dynamic spectrum using a given variance spectrum
 
 VARIANCE_PATH = "var_spectrum.npy"
 TARGET_FITS   = "LTest_00_00.fits"
-OUTPUT_DIR    = " "
+OUTPUT_DIR    = "outdir"
 
 SEARCH_SNR    = 9.0
 SEARCH_STOKES = "I"
