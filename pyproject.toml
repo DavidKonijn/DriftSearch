@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DriftSearch"
+version = "0.1.0"
+description = "Search for drifting broadband radio bursts via inverse-variance matched filtering."
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "scikit-image", "numba", "astropy", "matplotlib", "tqdm"]
+
+[tool.setuptools]
+packages = ["DriftSearch"]
