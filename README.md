@@ -38,7 +38,7 @@ To run the demo example:
 cd example && python3 single_target.py
 ```
 
-The pipeline will output two candidate bursts. The first clearly corresponds to the Type II radio burst reported by Callingham et al. (2025). Because this burst is exceptionally bright, a second candidate is also detected due to a noise realization that exceeds the SNR threshold. The example completes in under a minute on a typical system.
+The pipeline will output two candidate bursts. The first clearly corresponds to the Type II radio burst reported by Callingham et al. (2025). Because this burst is exceptionally bright, a second candidate is also detected due to a noise realization that exceeds the SNR threshold. The example will finish running in less than a minute (on a typical system).
 
 ## System Requirements
 ### Hardware requirements
